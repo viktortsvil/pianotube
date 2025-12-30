@@ -1,13 +1,12 @@
 {
-  "name": "webpiano",
+  "name": "pianotube",
   "version": "1.0.0",
   "description": "YouTube video player with interactive piano keyboard",
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
     "dev": "npx serve .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ."
   },
   "keywords": [
     "piano",
@@ -15,7 +14,7 @@
     "music",
     "keyboard"
   ],
-  "author": "",
+  "author": "Viktor Tsvil",
   "homepage": "https://viktortsvil.github.io/pianotube",
   "license": "MIT",
   "devDependencies": {
