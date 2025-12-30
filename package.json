@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
-    "dev": "npx serve ."
+    "dev": "npx serve .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "piano",
@@ -14,9 +16,10 @@
     "keyboard"
   ],
   "author": "",
+  "homepage": "https://viktortsvil.github.io/pianotube",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "serve": "^14.2.1"
   }
 }
-
